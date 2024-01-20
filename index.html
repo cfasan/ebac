@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Exercício - Plugins jQuery</h1>
+    </header>
+    <div class="container">
+        <h2>Formulário</h2>
+        <form>
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" />
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" >
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" >
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" name="cpf" >
+            <label for="endereco">Endereço completo</label>
+            <input type="text" id="endereco" name="endereco" >
+            <label for="cep">CEP</label>
+            <input type="text" id="cep" name="cep" >
+            <button>
+                Enviar
+            </button>
+        </form>
+    </div>
+    <footer>
+        <p>
+            &copy; 2024 - Desenvolvido por Claudio Favoreto
+        </p>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

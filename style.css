@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    background-image: url('./images/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+}
+
+header {
+    height: 60px;
+    background-color: #4187f0;
+    color: #000;
+    padding-top: 8px;
+    text-align: center;
+    vertical-align: center;
+    box-shadow: 0 4px 4px rgba(0,0,0,.1);
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+
+
+input,
+label,
+button {
+    display: block;
+    width: 100%;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+}
+
+input {
+    font-size: 16px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    height: 24px;
+    outline: none;
+    border: none;
+    padding-left: 8px;
+}
+
+button {
+    background-color: #ffffff2a;
+    margin-top: 16px;
+    padding: 8px 8px;
+    font-size: 24px;
+    font-weight:  bold;
+    cursor: pointer;
+    border-radius: 8px;
+    border:none;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0066ff2a;
+    font-size: 25px;
+}
+
+.container {
+    background-color: #0066ff2a;
+    padding: 8px 8px;
+    border-radius: 16px;
+    margin: 24px auto;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.3);
+
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    font-style: italic;
+}
+
+footer {
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+}
